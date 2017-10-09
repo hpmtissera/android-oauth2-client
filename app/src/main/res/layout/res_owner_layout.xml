@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lanka_guide.oauth2client.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_centerHorizontal="true"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:inputType="text"
+            android:text="@string/defaultUsername"/>
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/defaultPassword"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/authCodeBth"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_columnSpan="2"
+            android:onClick="onResOwnerButton"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/tokenResponseText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:id="@+id/helloResponseText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_columnSpan="2" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

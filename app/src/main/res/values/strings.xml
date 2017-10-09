@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OAuth2Client</string>
+    <string name="resOwnerLabel">Resource Owner Grant</string>
+    <string name="authCodeLabel">Auth Code Grant</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="defaultUsername">user</string>
+    <string name="defaultPassword">password1</string>
+</resources>
