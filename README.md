@@ -1,2 +1,2 @@
-# Android OAuth2 Client ![alt text](https://travis-ci.org/lanka-guide/android-oauth2-client.svg?branch=master)
+# Android OAuth2 Client
 Simple Android OAuth2 Client 
